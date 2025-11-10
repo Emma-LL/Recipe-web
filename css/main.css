@@ -330,7 +330,6 @@ border: 1px solid var(--color-grey);
 border-radius: 5px;
 padding: 8px 16px;
 font-size: 12px;
-
 }
 
 .todays_recipes_content_bottom_area_right button a{
@@ -622,22 +621,10 @@ font-size: 12px;
     font-weight: 900;
 }
 
-.time{
-display: flex;
-align-items: center;
-gap: 5px;
-}
-
-.energi{
-display: flex;
-align-items: center;
-gap: 5px;
-}
-
-.level{
-display: flex;
-align-items: center;
-gap: 5px;
+.icon-place{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .time-energi-level{
@@ -670,6 +657,26 @@ gap: 5px;
 .list-item li {
     max-width: 284px;
     padding: 4px;
+}
+
+/* Button */
+
+.media-button{
+    grid-row: 5;
+}
+
+.media-button button{
+    background-color: transparent;
+    border: 1px solid var(--color-grey);
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 12px;
+}
+
+.media-button a{
+    color: var(--color-white);
+    /* text-transform: uppercase; */
+    text-decoration: none;  
 }
 
 /* search page */
