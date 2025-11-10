@@ -601,6 +601,12 @@ font-size: 12px;
     height: 100%;
 }
 
+.ingredients-image{
+    grid-column: 8 / span 5;
+    grid-row: 2 / span 3;
+    max-height: 460px;
+}
+
 .ingredients-text{
     grid-column: 1 / span 3;
     grid-row: 2;
@@ -633,6 +639,7 @@ font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 67px 0;
 }
 
 .time-energi-level svg{
@@ -650,13 +657,13 @@ font-size: 12px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 300px;
+    height: 375px;
     padding: 20px;
 }
 
 .list-item li {
     max-width: 284px;
-    padding: 4px;
+    padding: 8px 4px;
 }
 
 /* Button */
@@ -681,6 +688,38 @@ font-size: 12px;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/* Instructions start */
+.instructions{
+    width: var(--width-12col);
+    display: grid;
+    height: fit-content;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 130px auto;
+    gap: var(--grid-gap);
+    margin: 0 auto;
+}
+
+.instructions-headline{
+    grid-column: 1 / span 12;
+    height: 60px;
+    color: var(--background-color-light);
+    border-bottom: 1px solid var(--background-color-light);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 70px 0 0 0;
+    font-size: 37px;
+}
+
+.instructions-list{
+    color: var(--color_light);
+    grid-column: 1 / span 8;
+    padding: 20px;
+}
+
+.instructions-list li {
+    padding: 10px 4px;
 }
 
 /* search page */
