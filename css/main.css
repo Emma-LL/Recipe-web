@@ -663,6 +663,7 @@ font-size: 12px;
 
 .media-button{
     grid-row: 5;
+    
 }
 
 .media-button button{
@@ -677,6 +678,9 @@ font-size: 12px;
     color: var(--color-white);
     /* text-transform: uppercase; */
     text-decoration: none;  
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* search page */
