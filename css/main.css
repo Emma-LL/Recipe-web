@@ -575,14 +575,25 @@ font-size: 12px;
 
 .power-icon{
     display: flex;
-    
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 200px;
+    align-content: flex-end;
 }
 
+.power-icon svg {
+    height: 24px;
+    width: 24px;
+}
 
+.power-icon p {
+  width: 80%;
+  font-size: 14px;
+}
 
-
-
-/* side 2 */
+/* side 2 start*/
 .ingredients{
     display: flex;
     justify-content: center;
@@ -722,6 +733,9 @@ font-size: 12px;
     padding: 10px 4px;
 }
 
+/* instructions done */
+/* side 2 done */
+
 /* search page */
 .hero-searchpage{
     background-image: var(--background-color-dark);
@@ -754,7 +768,7 @@ font-size: 12px;
     padding: 25px 20px;
 }
 
-.search-box .search-input{
+.search-box-sp .search-input-sp{
     width: 100%;
 }
 
