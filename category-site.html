@@ -27,119 +27,85 @@
             </div>
         </nav>
 
-        <!-- hero section -->
-        <header class="ingredients">
-            <div class="ingredients-container">
-                <div class="ingredients-text">
-                    <p>#1 Bender's most shiny recipe</p>
-                    <h1>
-                        Boozy brown <br> <span>Lentil soup</span>
-                    </h1>
-                </div>
-                <div class="time-energi-level">
-                    <div class="time icon-place">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 2a1 1 0 0 1 .993.883L13 7v4.586l2.707 2.707a1 1 0 0 1-1.32 1.497l-.094-.083l-3-3a1 1 0 0 1-.284-.576L11 12V7a1 1 0 0 1 1-1"/></g></svg>
-                        20 minutes
-                    </div>
-
-                    <div class="energi icon-place">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><path d="M11.5 13.8h-1.063c-1.53 0-2.294 0-2.583-.497s.088-1.162.844-2.491l2.367-4.167c.375-.66.563-.99.749-.94c.186.049.186.428.186 1.187V9.7c0 .236 0 .354.073.427s.191.073.427.073h1.063c1.53 0 2.294 0 2.583.497s-.088 1.162-.844 2.491l-2.367 4.167c-.375.66-.563.99-.749.94C12 18.247 12 17.868 12 17.109V14.3c0-.236 0-.354-.073-.427s-.191-.073-.427-.073Z"/><circle cx="12" cy="12" r="9"/></g></svg>
-                        230 calories
-                    </div>
-
-                    <div class="level icon-place">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><path fill="currentColor" d="M30 30h-8V4h8zm-6-2h4V6h-4zm-4 2h-8V12h8zm-6-2h4V14h-4zm-4 2H2V18h8z"/></svg>
-                        beginner
-                    </div>
-                </div>
-                <div class="ingredients-list">
-                    <h4>ingredients</h4>
-                    <ul class="list-item">
-                        <li>¼ cup extra virgin olive oil</li>
-                        <li>1 medium yellow or white onion, chopped</li>
-                        <li>2 carrots, peeled and chopped</li>
-                        <li>4 garlic cloves, pressed or minced</li>
-                        <li>2 teaspoons ground cumin</li>
-                        <li>1 teaspoon curry powder</li>
-                        <li>½ teaspoon dried thyme</li>
-                        <li>1 large can (28 ounces) diced tomatoes, lightly drained</li>
-                        <li>4 cups vegetable broth</li>
-                        <li>2 cups water</li>
-                        <li>1 tablespoon salt, more to taste</li>
-                        <li>Pinch of red pepper flakes</li>
-                        <li>Freshly ground black pepper, to taste</li>
-                        <li>1 cup chopped fresh collard greens or kale, tough ribs removed</li>
-                        <li>1 to 2 tablespoons lemon juice (½ to 1 medium lemon), to taste</li>
-                    </ul>
-                </div>
-                <div class="print media-button">
-                    <button>
-                        <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16 8.616v-3H8v3H7v-4h10v4zm-11.423 1h14.846zm13.038 2.5q.425 0 .713-.288t.287-.712t-.287-.713t-.713-.288t-.712.288t-.288.713t.288.712t.713.288M16 19v-4.538H8V19zm1 1H7v-4H3.577v-5.384q0-.85.577-1.425t1.423-.576h12.846q.85 0 1.425.576t.575 1.424V16H17zm2.423-5v-4.384q0-.425-.287-.713t-.713-.288H5.577q-.425 0-.712.288t-.288.713V15H7v-1.538h10V15z"/></svg>
-                            Print
-                        </a>
-                    </button>
+        <!-- categories -->
+        <section class="categories-site">
+            <div class="category-selection-site">
+                category selection
+            </div>
+            <div class="category-bar">
+                <div class="vegan center-icon">
+                 <svg data-category="vegan" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="M15 11.063C12.53 13.65 10.059 20 10.059 20S6.529 11.063 3 9"/><path d="m20.496 5.577l.426 4.424c.276 2.87-1.875 5.425-4.745 5.702c-2.816.27-5.367-1.788-5.638-4.604a5.12 5.12 0 0 1 4.608-5.59l4.716-.454a.58.58 0 0 1 .633.522"/></g></svg>
+                    <p data-category="vegan">vegetarian</p> 
                 </div>
 
-                <div class="favorite media-button">
-                    <button>
-                        <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"/></svg>
-                            Favorite
-                        </a>
-                    </button>
+                <div class="seafood center-icon">
+                 <svg data-category="seafood" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 256 256"><path fill="currentColor" d="M164 76a8 8 0 1 1-8-8a8 8 0 0 1 8 8m42.77 76.73c-14.5 20-36.17 33.57-64.38 40.2c-20.91 4.91-45.61 6-73.8 3.42q2.46 20.18 7.41 42.79a4 4 0 0 1-3 4.77a4.2 4.2 0 0 1-.86.09a4 4 0 0 1-3.9-3.14a457 457 0 0 1-7.72-45.36q-21.4-2.49-45.33-7.72a4 4 0 1 1 1.67-7.78q22.59 4.95 42.76 7.41c-2.62-28.16-1.48-52.84 3.43-73.73c6.63-28.21 20.14-49.88 40.18-64.39C127.32 31.8 156.61 28 177.53 28h1.71c22 .21 40.12 4.54 41.81 5.53a4 4 0 0 1 1.41 1.47c1 1.68 5.31 19.8 5.53 41.79c.21 20.96-3.3 51.21-21.22 75.94m-12.23 2.43a108 108 0 0 1-93.7-93.7c-27.92 25.08-39 67.62-33.14 126.81c59.2 5.87 101.75-5.2 126.84-33.11m21.2-114.9c-10.84-2.53-67.24-13.57-107.44 15.2a99.92 99.92 0 0 0 92.23 92.24c28.76-40.18 17.74-96.59 15.21-107.44"/></svg>
+                    <p data-category="seafood">seafood</p>
                 </div>
-                <div class="ingredients-image">
-                    <img src="https://picsum.photos/460/460" alt="">
+
+                <div class="pasta center-icon">
+                 <svg data-category="pasta" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="M21.292 13H2.708c-1.52 0-.224 2.238.461 2.581l2.361 1.181c.236.119.354.178.452.264c.878.776 1.038 2.143 2.148 2.737c.442.237.965.237 2.012.237h3.716c1.047 0 1.57 0 2.012-.237c1.11-.594 1.27-1.961 2.148-2.737c.098-.086.216-.145.452-.264l2.36-1.181c.686-.343 1.981-2.581.462-2.581"/><path d="M15 13a6 6 0 0 0-12 0"/><path d="M21 13c0-2.761-2.225-5-4.97-5c-.924 0-1.789.254-2.53.696M7 12.222C7 10.995 7.895 10 9 10s2 .995 2 2.222V14M9 6.556c.431-1.766 2.328-2.874 4.237-2.475c1.909.4 3.106 2.154 2.675 3.919"/></g></svg>
+                 <p data-category="pasta">pastas</p>
+                </div>
+
+                <div class="chicken center-icon">
+                 <svg data-category="chicken" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="0.5"><path stroke-linejoin="round" d="M2.243 2.246v1.562m4.563-1.562v1.562M4.525 1.083v1.562"/><path d="M11.509 4.602a.955.955 0 1 0 1.91 0a.955.955 0 1 0-1.91 0"/><path stroke-linejoin="round" d="m10.841 8.677l.212.093c1.48.7 1.889 1.606 1.889 2.85v.298a1 1 0 0 1-1 1H1.64c-.327 0-.634-.161-.76-.463c-.277-.669-.599-2.013.238-3.685c1.21-2.416 4.187-2.947 6.094-1.947l.09.046"/><path d="M10.158 10.006c.928-1.018.976-2.485.108-3.275s-2.323-.605-3.25.413c-.843.925-.96 2.219-.325 3.04q.097.127.217.235"/><path stroke-linejoin="round" d="M11.806 5.296L10.32 6.781"/></g></svg>
+                    <p data-category="chicken">chicken</p>
+                </div>
+
+                <div class="snacks center-icon">
+                 <svg data-category="snacks" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><path stroke-width="1" d="M12 9c-4.32 0-8.01 2.937-9.466 7.072c-.528 1.498-.791 2.246-.185 3.087C2.954 20 3.943 20 5.92 20h12.16c1.978 0 2.967 0 3.572-.841c.606-.841.343-1.59-.184-3.087C20.01 11.937 16.32 9 12 9Z"/><path stroke-linecap="round" stroke-width="1" d="M21.33 15a3.24 3.24 0 0 0-.24-4.222a3.3 3.3 0 0 1-.898-1.975c-.148-1.677-1.566-3.016-3.344-3.144l-.204-.015a4 4 0 0 1-2.153-.812c-1.445-1.11-3.537-1.11-4.981 0a4 4 0 0 1-2.154.812l-.204.015c-1.778.128-3.196 1.467-3.344 3.144a3.3 3.3 0 0 1-.898 1.975A3.24 3.24 0 0 0 2.67 15"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5.497 17h-.009m1.51-3H6.99"/></g></svg>
+                    <p data-category="snacks">snacks</p>
+                </div>
+
+                <div class="meats center-icon">
+                 <svg data-category="meats" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="m13.62 8.382l1.966-1.967A2 2 0 1 1 19 5a2 2 0 1 1-1.413 3.414l-1.82 1.821m-9.863 8.361c2.733 2.734 5.9 4 7.07 2.829c1.172-1.172-.094-4.338-2.828-7.071c-2.733-2.734-5.9-4-7.07-2.829c-1.172 1.172.094 4.338 2.828 7.071M7.5 16l1 1"/><path d="M12.975 21.425c3.905-3.906 4.855-9.288 2.121-12.021c-2.733-2.734-8.115-1.784-12.02 2.121"/></g></svg>
+                    <p data-category="meats">beef/pork</p>
+                </div>
+
+                <div class="dessert center-icon">
+                 <svg data-category="dessert" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1"><path stroke-linecap="round" d="M7.885 9.176A3.98 3.98 0 0 0 5 13m2.885-3.824c1.97-.563 6.142-.925 6.942-3.169M7.885 9.176C7.885 5 12 6 12 2c2.047 0 3.503 2.11 2.827 4.007m0 0c1.627-.14 2.717 1.731 1.858 3.071m0 0c-.274.427-.724.775-1.185 1.041m1.185-1.04C18.642 9.534 19 11.293 19 13"/><path d="M16 14.949c0-2.599 4-2.599 4 0c0 1.362-.755 2.529-1.342 3.71c-.806 1.626-1.21 2.438-1.935 2.89S15.096 22 13.292 22h-2.584c-1.804 0-2.706 0-3.431-.451c-.725-.452-1.128-1.264-1.935-2.89C4.755 17.478 4 16.311 4 14.949c0-2.599 4-2.599 4 0c0-2.599 4-2.599 4 0c0-2.599 4-2.599 4 0Z"/></g></svg>
+                    <p data-category="dessert">dessert</p>
                 </div>
             </div>
-        </header>
-
-        <!-- todays recipes -->
+        </section>
+        
+        <!-- hero section -->
         <section class="instructions">
             <div class="instructions-headline">
-                instructions
+                your favorite
             </div>
-            <ol class="instructions-list">
-                <li>
-                    Warm the olive oil in a large Dutch oven or pot over medium heat. 
-                    One-fourth cup olive oil may seem like a lot, 
-                    but it adds a lovely richness and heartiness to this nutritious soup.
-                </li>
-                <li>
-                    Once the oil is shimmering, add the chopped onion and carrot and cook, 
-                    stirring often, until the onion has softened and is turning translucent, a
-                    bout 5 minutes.
-                </li>
-                <li>
-                    Add the garlic, cumin, curry powder and thyme. Cook until fragrant while stirring constantly, 
-                    about 30 seconds. Pour in the drained diced tomatoes and cook for a few more minutes, 
-                    stirring often, in order to enhance their flavor.
-                </li>
-                <li>
-                    Pour in the lentils, broth and the water. Add 1 teaspoon salt and a pinch of red pepper flakes. 
-                    Season generously with freshly ground black pepper. Raise heat and bring the mixture to a boil, 
-                    then partially cover the pot and reduce the heat to maintain a gentle simmer. Cook for 25 to 30 minutes, 
-                    or until the lentils are tender but still hold their shape.
-                </li>
-                <li>
-                    Transfer 2 cups of the soup to a blender. Securely fasten the lid, 
-                    protect your hand from steam with a tea towel placed over the lid, 
-                    and purée the soup until smooth. Pour the puréed soup back into the pot. 
-                    (Or, use an immersion blender to blend a portion of the soup.)
-                </li>
-                <li>
-                    Add the chopped greens and cook for 5 more minutes, or until the greens have softened to your liking. 
-                    Remove the pot from the heat and stir in 1 tablespoon of lemon juice. Taste and season with more salt, 
-                    pepper and/or lemon juice until the flavors really sing. 
-                    For spicier soup, add another pinch or two of red pepper flakes.
-                </li>
-                <li>
-                    Serve while hot. Leftovers will keep well for about 4 days in the refrigerator, 
-                    or can be frozen for several months (just defrost before serving).
-                </li>
-            </ol>
+
+            <div class="todays_recipes_content_block">
+                    <div class="todays_recipes_content_block_image">
+                        <img src="https://picsum.photos/300/175" alt="">
+                    </div>
+                    <div class="todays_recipes_content_block_text">
+                        <div class="todays_recipes_content_block_text_top">
+                            <h5>spicy meat'a'bowl</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, libero.</p>
+                        </div>
+                        <div class="todays_recipes_content_block_text_bottom">
+                            <div data-category="meats" class="todays_recipes_content_bottom_area">
+                                <div class="todays_recipes_content_bottom_area_left">
+                                    <p data-category="meats">beef/pork</p>
+                                    <p>Recipe</p>
+                                </div>
+                                <div class="todays_recipes_content_bottom_area_right">
+                                    <div class="todays_recipes_content_bottom_area_right_button">
+                                        <button>
+                                            <a href="">how to</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
         </section>
+        <!-- todays recipes -->
+        
 
         <!-- categories -->
         <section class="categories">
