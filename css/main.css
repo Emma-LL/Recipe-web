@@ -979,3 +979,77 @@ font-size: 12px;
 .food-search-input::placeholder{
     color: var(--background-color-light);
 }
+/* search bar done */
+
+/* recipe box */
+
+.recipes_content_block{
+    background-color: var(--background-color-light);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recipes_content_block_image img{
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.recipes_content_block_text{
+    padding: 20px;
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recipes_content_block_text h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+.recipes_content_block_text p{
+    font-size: 16px;
+}
+
+
+
+
+
+@media (width < 600px) {
+
+    :root {
+         --width-12col: 100%;
+    }
+
+    .todays_recipes_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .category-bar{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+        width: 80%;
+    }
+
+    .image-section{
+        display: none;
+    }
+
+    .content-image{
+        display: none;
+    }
+
+    .content-text{
+        width: 100%;
+    }
+
+}
