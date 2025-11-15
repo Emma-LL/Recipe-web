@@ -1028,6 +1028,7 @@ font-size: 12px;
          --width-12col: 100%;
     }
 
+    /* index start */
     .todays_recipes_content {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1035,9 +1036,14 @@ font-size: 12px;
     .category-bar{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 10px;
         height: auto;
         gap: 10px;
-        width: 80%;
+    }
+
+    .center-icon{
+        width: 25%;
     }
 
     .image-section{
@@ -1050,6 +1056,17 @@ font-size: 12px;
 
     .content-text{
         width: 100%;
+        padding: 20px 20px;
+        height: 180px;
+    }
+    /* index done */
+
+    /* recipe start */
+    .ingredients-image{
+        display: none;
     }
 
+    .list-item{
+        width: 80;
+    }
 }
