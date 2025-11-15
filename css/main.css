@@ -1070,9 +1070,7 @@ font-size: 12px;
         width: 100%;
     }
 
-    .time-energi-level{
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 10px;
-    }
+    /* recipe done */
+
+    
 }
