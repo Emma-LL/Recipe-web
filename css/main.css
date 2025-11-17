@@ -215,7 +215,6 @@ body, html {
     border-radius: 5px 5px 0 0;
     height: 200px;
     width: 100%;
-    background-size: cover;
     background-position: center;
 }
 
@@ -982,7 +981,7 @@ font-size: 12px;
 
 /* search bar start */
 .food-search-box{
-    grid-column: 9 / span 3;
+    grid-column: 11 / span 3;
     height: 40px;
     position: relative;
 }
@@ -1186,6 +1185,10 @@ font-size: 12px;
     grid-column: 1 / span 12;
     }
 
+    .category-selection-site{
+        font-size: 35px;
+    }
+
     .recipe-category {
     display:flex;
     justify-content: space-between;
@@ -1200,7 +1203,7 @@ font-size: 12px;
     }
 
     .recipes-content-category {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     /* recipe done */
 
