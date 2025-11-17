@@ -109,7 +109,7 @@ body, html {
 }
 
 .hero{
-    background-image: url("https://picsum.photos/1600/800");
+    background-image: url('../img/suppe.png');
     min-height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1149,24 +1149,29 @@ font-size: 12px;
     grid-row: 4;
     display: flex;
     flex-direction: column;
-}
+    }
 
-.instructions-list {
+    .instructions-list {
 
     grid-column: 1 / span 12;
+    }
 
-}
-.recipe-category {
+    .recipe-category {
     display:flex;
     justify-content: space-between;
-}
+    }
 
-/* .food-search-input {
-    padding: 10px 00px 10px 40px;
-} */
-.cooking_content_category{
+    .cooking_content_category{
     grid-template-columns: repeat(2, 1fr);
-}
+    }
+    
+    .food-category{
+    grid-column: 1 / span 4;
+    }
+
+    .recipes-content-category {
+        grid-template-columns: repeat(1, 1fr);
+    }
     /* recipe done */
 
     /* search page */
@@ -1187,13 +1192,7 @@ font-size: 12px;
         height: 30px;
     }
 
-    .food-category{
-    grid-column: 1 / span 4;
-    }
-
-    .recipes-content-category {
-        grid-template-columns: repeat(1, 1fr);
-    }
+    
 
     .power-icon{
         display: none;
