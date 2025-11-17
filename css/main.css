@@ -967,6 +967,7 @@ font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 24px;
+    
 }
 
 /* search bar start */
@@ -1006,6 +1007,13 @@ font-size: 12px;
     grid-template-columns: repeat(4, 1fr);
     height: fit-content;
     margin: 0 auto;
+}
+
+.recipes_content_block_text_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0;
 }
 
 .recipes_content_block{
@@ -1165,7 +1173,29 @@ font-size: 12px;
 
     .list-item{
         width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
     }
+
+    .list-item li{
+        width: 50%;
+    }
+
+
+    .ingredients-list{
+    grid-column: 1 / span 12;
+    grid-row: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.instructions-list {
+
+    grid-column: 1 / span 12;
+
+}
+
 
     /* recipe done */
 
@@ -1184,5 +1214,18 @@ font-size: 12px;
 
     .filter-category label{
         height: 30px;
+    }
+
+    .food-category{
+    grid-column: 1 / span 4;
+    }
+
+    .recipes-content-category {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .power-icon{
+        display: none;
+        
     }
 }
